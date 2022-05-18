@@ -1,3 +1,5 @@
+package com.thuynv;
+
 public class DuyenSo {
 	public String ten;
 	public int tuoi;
@@ -13,5 +15,9 @@ public class DuyenSo {
 	}
 	public static void main(String[] args) {
 
+
+		String temp = "100102002.admin";
+		String []a = temp.split("\\.");
+		System.out.println(temp.split("."));
 	}
 }
